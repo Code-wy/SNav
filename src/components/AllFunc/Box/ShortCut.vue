@@ -47,12 +47,12 @@
     </Transition>
     <div class="footer__btn-group">
       <div class="footer__btn" @click="downloadHtmlFile">
-        <SvgIcon iconName="icon-xiazai" />
+        <!-- <SvgIcon iconName="icon-xiazai" /> -->
         <span class="btnName">下载</span>
       </div>
       <div class="footer__btn" @click="clickFileDom">
         <input type="file" name="上传" id="shortCutUploadInput" />
-        <SvgIcon iconName="icon-shangchuan" />
+        <!-- <SvgIcon iconName="icon-shangchuan" /> -->
         <span class="btnName">上传</span>
       </div>
     </div>
